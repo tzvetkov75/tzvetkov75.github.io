@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Put the images in the header. See example12345678910111213141516---title: Gallery imagesdate: 2017-02-05 12:05:51photos: - /images/test1.jpg - /images/test2.jpg- /images/test3.jpg- /images/test4.jpg-">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Gallery Demo">
+<meta property="og:url" content="https://tzvetkov75.github.io/2017/02/05/demo-g/index.html">
+<meta property="og:site_name" content="Solar Blog">
+<meta property="og:description" content="Put the images in the header. See example12345678910111213141516---title: Gallery imagesdate: 2017-02-05 12:05:51photos: - /images/test1.jpg - /images/test2.jpg- /images/test3.jpg- /images/test4.jpg-">
+<meta property="og:image" content="https://tzvetkov75.github.io/images/test1.jpg">
+<meta property="og:image" content="https://tzvetkov75.github.io/images/test2.jpg">
+<meta property="og:image" content="https://tzvetkov75.github.io/images/test3.jpg">
+<meta property="og:image" content="https://tzvetkov75.github.io/images/test4.jpg">
+<meta property="og:image" content="https://tzvetkov75.github.io/images/test5.jpg">
+<meta property="og:image" content="https://tzvetkov75.github.io/images/test6.jpg">
+<meta property="og:image" content="https://tzvetkov75.github.io/images/test7.jpg">
+<meta property="og:image" content="https://tzvetkov75.github.io/images/test8.jpg">
+<meta property="og:image" content="https://tzvetkov75.github.io/images/test9.jpg">
+<meta property="og:updated_time" content="2017-02-05T20:18:12.704Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Gallery Demo">
+<meta name="twitter:description" content="Put the images in the header. See example12345678910111213141516---title: Gallery imagesdate: 2017-02-05 12:05:51photos: - /images/test1.jpg - /images/test2.jpg- /images/test3.jpg- /images/test4.jpg-">
+<meta name="twitter:image" content="https://tzvetkov75.github.io/images/test1.jpg">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/demo_blog/public/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/demo_blog/public/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/demo_blog/public/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>Gallery Demo</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/demo_blog/public/lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/demo_blog/public/lib/meslo-LG/styles.css">
+    <link rel="stylesheet" href="/demo_blog/public/lib/justified-gallery/justifiedGallery.min.css">
+    <link rel="stylesheet" href="/demo_blog/public/css/style.css">
+    <!-- rss -->
+    
+    
+    <!-- jquery -->
+    <script src="/demo_blog/public/lib/jquery/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="banner">
+<div id="blogtitel" class="blogtitel">Solar Blog</div>
+<ul id="wrapper" class="wrapper">
+  <div class="sun">
+    <div class="star"></div>
+  </div>
+  <div class="mercury">
+    <div class="planet">
+      <div class="shadow"></div>
+    </div>
+  </div>
+  <div class="venus">
+    <div class="planet">
+      <div class="shadow"></div>
+    </div>
+  </div>
+  <div class="earth">
+    <div class="planet"><div class="shadow"></div></div>
+  </div>
+  <div class="mars">
+    <div class="planet"><div class="shadow"></div></div>
+  </div>
+  <div class="jupiter">
+    <div class="planet"><div class="shadow"></div></div>
+  </div>
+</ul>
+</div>
+
+    <div class="background">
+      
+        <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/demo_blog/public/home/">Home</a></li>
+         
+          <li><a href="/demo_blog/public/about/">About</a></li>
+         
+          <li><a href="/demo_blog/public/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/tzvetkov75">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/demo_blog/public/2017/02/10/overview/"><i class="fa fa-chevron-left" aria-hidden="true" onmouseover='$("#i-prev").toggle();' onmouseout='$("#i-prev").toggle();'></i></a></li>
+        
+        
+        <li><a class="icon" href="/demo_blog/public/2017/02/05/hello-world/"><i class="fa fa-chevron-right" aria-hidden="true" onmouseover='$("#i-next").toggle();' onmouseout='$("#i-next").toggle();'></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up" aria-hidden="true" onmouseover='$("#i-top").toggle();' onmouseout='$("#i-top").toggle();'></i></a></li>
+        <li><a class="icon" href="#"><i class="fa fa-share-alt" aria-hidden="true" onmouseover='$("#i-share").toggle();' onmouseout='$("#i-share").toggle();' onclick='$("#share").toggle();return false;'></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/&text=Gallery Demo"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/&title=Gallery Demo"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/&is_video=false&description=Gallery Demo"><i class="fa fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Gallery Demo&body=Check out this article: https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/"><i class="fa fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/&title=Gallery Demo"><i class="fa fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/&title=Gallery Demo"><i class="fa fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/&title=Gallery Demo"><i class="fa fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/&title=Gallery Demo"><i class="fa fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/&name=Gallery Demo&description="><i class="fa fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      
+    </div>
+  </span>
+</div>
+
+      
+      <div class="content index width mx-auto px2 my4">
+          
+          <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Gallery Demo
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Solar Blog</span>
+      </span>
+      
+    <div class="postdate">
+        <time datetime="2017-02-05T20:11:06.000Z" itemprop="datePublished">2017-02-05</time>
+    </div>
+
+
+      
+
+    </div>
+  </header>
+  
+<div class="article-gallery">
+    
+    <a class="gallery-item" href="/demo_blog/public/images/test1.jpg" rel="gallery_ciyt5fujk00010om9pofs2gtm">
+        <img src="/demo_blog/public/images/test1.jpg" itemprop="image" />
+    </a>
+    
+    <a class="gallery-item" href="/demo_blog/public/images/test2.jpg" rel="gallery_ciyt5fujk00010om9pofs2gtm">
+        <img src="/demo_blog/public/images/test2.jpg" itemprop="image" />
+    </a>
+    
+    <a class="gallery-item" href="/demo_blog/public/images/test3.jpg" rel="gallery_ciyt5fujk00010om9pofs2gtm">
+        <img src="/demo_blog/public/images/test3.jpg" itemprop="image" />
+    </a>
+    
+    <a class="gallery-item" href="/demo_blog/public/images/test4.jpg" rel="gallery_ciyt5fujk00010om9pofs2gtm">
+        <img src="/demo_blog/public/images/test4.jpg" itemprop="image" />
+    </a>
+    
+    <a class="gallery-item" href="/demo_blog/public/images/test5.jpg" rel="gallery_ciyt5fujk00010om9pofs2gtm">
+        <img src="/demo_blog/public/images/test5.jpg" itemprop="image" />
+    </a>
+    
+    <a class="gallery-item" href="/demo_blog/public/images/test6.jpg" rel="gallery_ciyt5fujk00010om9pofs2gtm">
+        <img src="/demo_blog/public/images/test6.jpg" itemprop="image" />
+    </a>
+    
+    <a class="gallery-item" href="/demo_blog/public/images/test7.jpg" rel="gallery_ciyt5fujk00010om9pofs2gtm">
+        <img src="/demo_blog/public/images/test7.jpg" itemprop="image" />
+    </a>
+    
+    <a class="gallery-item" href="/demo_blog/public/images/test8.jpg" rel="gallery_ciyt5fujk00010om9pofs2gtm">
+        <img src="/demo_blog/public/images/test8.jpg" itemprop="image" />
+    </a>
+    
+    <a class="gallery-item" href="/demo_blog/public/images/test9.jpg" rel="gallery_ciyt5fujk00010om9pofs2gtm">
+        <img src="/demo_blog/public/images/test9.jpg" itemprop="image" />
+    </a>
+    
+</div>
+
+
+  <div class="content" itemprop="articleBody">
+    <p>Put the images in the header. See example<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">---</div><div class="line">title: Gallery images</div><div class="line">date: 2017-02-05 12:05:51</div><div class="line">photos: </div><div class="line">- /images/test1.jpg </div><div class="line">- /images/test2.jpg</div><div class="line">- /images/test3.jpg</div><div class="line">- /images/test4.jpg</div><div class="line">- /images/test5.jpg</div><div class="line">- /images/test6.jpg</div><div class="line">- /images/test7.jpg</div><div class="line">- /images/test8.jpg</div><div class="line">- /images/test9.jpg</div><div class="line">tags: #images</div><div class="line">---</div></pre></td></tr></table></figure></p>
+<p>“Dolores eos qui ratione voluptatem sequi nesciunt. Lorem ipsum dolor.”Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+
+  </div>
+</article>
+
+
+
+      </div>
+      
+       <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/demo_blog/public/home/">Home</a></li>
+         
+          <li><a href="/demo_blog/public/about/">About</a></li>
+         
+          <li><a href="/demo_blog/public/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/tzvetkov75">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/&text=Gallery Demo"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/&title=Gallery Demo"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/&is_video=false&description=Gallery Demo"><i class="fa fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Gallery Demo&body=Check out this article: https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/&title=Gallery Demo"><i class="fa fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/&title=Gallery Demo"><i class="fa fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/&title=Gallery Demo"><i class="fa fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/&title=Gallery Demo"><i class="fa fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://tzvetkov75.github.io/demo_blog/public/2017/02/05/demo-g/&name=Gallery Demo&description="><i class="fa fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      <ul>
+        <li id="toc"><a class="icon" href="#" onclick='$("#toc-footer").toggle();return false;'><i class="fa fa-list fa-lg" aria-hidden="true"></i> TOC</a></li>
+        <li id="share"><a class="icon" href="#" onclick='$("#share-footer").toggle();return false;'><i class="fa fa-share-alt fa-lg" aria-hidden="true"></i> Share</a></li>
+        <li id="top" style="display:none"><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a></li>
+        <li id="menu"><a class="icon" href="#" onclick='$("#nav-footer").toggle();return false;'><i class="fa fa-bars fa-lg" aria-hidden="true"></i> Menu</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+      
+      <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2017 John Doe
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/demo_blog/public/home/">Home</a></li>
+         
+          <li><a href="/demo_blog/public/about/">About</a></li>
+         
+          <li><a href="/demo_blog/public/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/tzvetkov75">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+      <script src="/demo_blog/public/lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
+<script src="/demo_blog/public/js/main.js"></script>
+<!-- Google Analytics -->
+
+<!-- Disqus Comments -->
+
+
+    </div>
+</body>
+</html>
